@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>xegativ</title>
+
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/locomotive-scroll.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">xegativ</a>
+        <ul>
+            <li><a href="#top" class="back-to-top-link"> HOME </a></li>
+            <li><a href="#"> PROJECTS </a></li>
+            <li><a href="#"> ABOUT </a></li>
+        </ul>
+    </header>
+
+    <div data-scroll-container>
+        <div class="intro">
+            <h2  data-scroll data-scroll-speed="3">WELCOME.</h2>
+            <br>
+            <br>
+            <p  data-scroll data-scroll-speed="2">────</p>
+            <br>
+            <br>
+            <h1  data-scroll data-scroll-speed="1">./001/</h1>
+        </div>
+
+        <div class="about">
+            <div class="divider">
+                <div>
+                    <p>Hi <sub>there,</sub></p>
+                    <br>
+                    <p>───────────────</p>
+                    <br>
+                    <p>My name is xegativ. I am a programmer and graphic designer. I would not classify myself as a front end or back end developer. I do not feel I am yet qualified enough to do so. However, I do enjoy creating new things from time to time.</p>
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+    
+    
+    <script src="/js/main.js"></script>
+
+    <script src="/js/locomotive-scroll.min.js"></script>
+    <script>
+        (function () {
+            var scroll = new LocomotiveScroll({
+                el: document.querySelector('[data-scroll-container]'),
+                smooth: true,
+                lerp: 0.1
+            });
+        })();
+    </script>
+</body>
+</html>
