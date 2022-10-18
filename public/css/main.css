@@ -42,9 +42,11 @@ header .logo
 
     overflow: visible;
 
+    background: url(/img/xegativ-logo.png) center left / contain no-repeat;
+
     color: rgb(0, 0, 0);
     
-    padding-left: 2.4em;
+    padding-left: 3em;
 
     text-decoration: none;
     
@@ -86,35 +88,32 @@ header ul li a
 {
     margin-top: 35vh;
 
-    height: 100vh;
+    height: 80vh;
 
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
 
-.intro h2 
+.intro h1
 {
     font-size: 10vh;
 }
 
-.intro h1 
+.intro h2 
 {
     font-size: 2vh;
 }
 
 .about
 {
-    height: 100vh;
+    height: 50vh;
 }
 
-.divider 
+.about .divider 
 {
-    /*
-    width: 70vh;
-    */
-    
-    margin-left: 40vh;
-    margin-right: 30vh;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
 
     display: grid;
     grid-template-columns: 30vh 1fr;
@@ -131,4 +130,56 @@ header ul li a
     text-transform: uppercase;
     line-height: 1em;
     
+}
+
+
+.about-ctd
+{
+    height: 70vh;
+}
+
+.about-ctd .divider 
+{
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 30vh;
+
+    grid-gap: 20px;
+}
+
+.about-ctd p
+{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+
+    text-transform: uppercase;
+    line-height: 1em;
+    
+}
+
+.projects 
+{
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+.projects-title 
+{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects h1
+{
+    font-size: 10vh;
+}
+
+.projects h2
+{
+    font-size: 2vh;
 }
