@@ -21,6 +21,33 @@ html,body
     overflow-x: hidden; 
 }
 
+footer 
+{
+    z-index: 1;
+}
+
+.socials 
+{
+    position: fixed;
+    bottom: 10vh;
+    width: 95vw;
+    color: black;
+    text-align: right;
+}
+
+.socials a 
+{
+    color: black;
+
+    font-size: 0.8em;
+    font-weight: 600;
+
+    text-decoration: none;
+    padding: 6px 15px;
+
+    font-family: 'DM Sans', sans-serif;
+}
+
 header
 {
     position: fixed;
@@ -129,7 +156,15 @@ header ul li a
 
     text-transform: uppercase;
     line-height: 1em;
-    
+}
+
+.sub 
+{
+    margin-top: 3vh;
+
+    font-size: 0.5em !important;
+
+    color: rgba(0, 0, 0, 0.258);
 }
 
 
@@ -163,7 +198,7 @@ header ul li a
 
 .projects 
 {
-    height: 100vh;
+    height: 70vh;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -182,4 +217,58 @@ header ul li a
 .projects h2
 {
     font-size: 2vh;
+}
+
+.projects-list
+{
+    padding-top: 15vh;
+
+    height: 250vh;
+    background-color: black;
+/*
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
+}
+
+.proj 
+{
+    display: grid;
+    grid-template-columns: 1fr 20vw 60vw;
+}
+
+.projects-list p
+{
+    border-top: 1px solid white;
+
+    font-size: 2vh;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    text-align: right;
+
+    line-height: 1em;
+
+    padding-top: 1.7em;
+    padding-right: 2em;
+
+    color: white;
+}
+
+.projects-list h1
+{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+
+    font-size: 8vh;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+
+    line-height: 1em;
+
+    padding-top: 0.3em;
+    padding-left: 0.3em;
+    padding-bottom: 5em;
+
+    width: 20vw;
+
+    color: white;
 }
