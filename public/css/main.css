@@ -133,19 +133,24 @@ header ul li a
 
 .about
 {
-    height: 50vh;
+    height: 70vh;
 }
 
 .about .divider 
 {
     width: 40vw;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 28vw;
 
     display: grid;
     grid-template-columns: 30vh 1fr;
 
-    grid-gap: 20px;
+    grid-gap: 8vw;
+}
+
+.about .caption-1
+{
+    margin-top: 20vh;
 }
 
 .about p
@@ -156,6 +161,28 @@ header ul li a
 
     text-transform: uppercase;
     line-height: 1em;
+}
+
+.about .wrap-1 
+{
+    margin-bottom: 20vh;
+}
+
+.about .img-1
+{    
+    height: 100%;
+    background-image: url(/img/glitch.jpg);
+}
+
+.about .wrap-1 p
+{
+    padding-top: 10px;
+}
+
+.p-split-three 
+{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
 }
 
 .sub 
@@ -170,19 +197,24 @@ header ul li a
 
 .about-ctd
 {
-    height: 70vh;
+    height: 80vh;
 }
 
 .about-ctd .divider 
 {
     width: 40vw;
-    margin-left: auto;
+    margin-left: 28vw;
     margin-right: auto;
 
     display: grid;
     grid-template-columns: 1fr 30vh;
 
-    grid-gap: 20px;
+    grid-gap: 8vw;
+}
+
+.about-ctd .caption-2
+{
+    margin-bottom: 20vh;   
 }
 
 .about-ctd p
@@ -192,8 +224,23 @@ header ul li a
     font-size: 0.7em;
 
     text-transform: uppercase;
-    line-height: 1em;
-    
+    line-height: 1em; 
+}
+
+.about-ctd .wrap-2 p
+{
+    padding-top: 10px;
+}
+
+.about-ctd .wrap-2 
+{
+    margin-top: 20vh;
+}
+
+.about-ctd .img-2
+{    
+    height: 100%;
+    background-image: url(/img/glitch.jpg);
 }
 
 .projects 
