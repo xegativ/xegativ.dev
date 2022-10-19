@@ -165,7 +165,7 @@ header ul li a
 
 .about .wrap-1 
 {
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
 }
 
 .about .img-1
@@ -177,6 +177,7 @@ header ul li a
 .about .wrap-1 p
 {
     padding-top: 10px;
+    font-size: 0.2em;
 }
 
 .p-split-three 
@@ -230,11 +231,12 @@ header ul li a
 .about-ctd .wrap-2 p
 {
     padding-top: 10px;
+    font-size: 0.2em;
 }
 
 .about-ctd .wrap-2 
 {
-    margin-top: 20vh;
+    margin-top: 5vh;
 }
 
 .about-ctd .img-2
